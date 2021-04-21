@@ -12,10 +12,23 @@
  * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
  */
 
+@import 'uview-ui/theme.scss';
+/* 重置uView-ui主题色 */
+$u-type-primary: #bd1b2d;
+// $u-type-primary-light: #bd1b2d;
+$u-type-primary-disabled: #e4abad;
+$u-type-primary-dark: #d13c41;  // button hover颜色
+
+// $u-border-color: #e4e7ed;
+
 /* 颜色变量 */
+$color1: #262628;
+$color2: #565862; // 主字体颜色
+$color3: #949397;
+$border:#bcbbd5;
 
 /* 行为相关颜色 */
-$uni-color-primary: #007aff;
+$uni-color-primary: #bd1b2d;
 $uni-color-success: #4cd964;
 $uni-color-warning: #f0ad4e;
 $uni-color-error: #dd524d;
@@ -34,7 +47,8 @@ $uni-bg-color-hover:#f1f1f1;//点击状态颜色
 $uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
 
 /* 边框颜色 */
-$uni-border-color:#c8c7cc;
+// $uni-border-color:#c8c7cc;
+$uni-border-color:#bcbbd5;
 
 /* 尺寸变量 */
 

@@ -1,0 +1,1 @@
+<view class="page-map"><map class="map-box" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}"></map><view class="footer-box"><u-button vue-id="5b0d33c6-1" type="primary" shape="circle" data-event-opts="{{[['^click',[['handleLoc']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">导航</u-button></view></view>

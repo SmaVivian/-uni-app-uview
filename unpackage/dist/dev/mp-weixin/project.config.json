@@ -1,0 +1,91 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxfd9d79653d0c6553",
+  "projectname": "预约",
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "特定页面",
+          "query": "id=1",
+          "id": 0,
+          "pathName": "pages/order/order-pre"
+        },
+        {
+          "name": "预约",
+          "query": "id=1",
+          "id": 1,
+          "pathName": "pages/order/order"
+        },
+        {
+          "name": "预约添加",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/order/order-add"
+        },
+        {
+          "name": "地图",
+          "query": "id=1",
+          "id": 3,
+          "pathName": "pages/map/map"
+        },
+        {
+          "name": "联系人",
+          "query": "",
+          "id": 4,
+          "pathName": "pages/my/my-contact"
+        }
+      ]
+    }
+  }
+}

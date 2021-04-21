@@ -1,6 +1,6 @@
 {
-    "name" : "uni-app-uview",
-    "appid" : "__UNI__BBEF4AF",
+    "name" : "预约",
+    "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -8,7 +8,7 @@
     /* 5+App特有相关 */
     "app-plus" : {
         "usingComponents" : true,
-		"nvueStyleCompiler" : "uni-app",
+        "nvueStyleCompiler" : "uni-app",
         "compilerVersion" : 3,
         "splashscreen" : {
             "alwaysShowBeforeRender" : true,
@@ -50,11 +50,16 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wxfd9d79653d0c6553",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : true
         },
-        "usingComponents" : true
+        "usingComponents" : true,
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "你的位置信息将用于小程序位置接口的效果展示"
+            }
+        }
     },
     "mp-alipay" : {
         "usingComponents" : true
@@ -65,7 +70,33 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
-        "enable": false
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "h5" : {
+        "devServer" : {
+            "https" : false,
+            "port" : 8080,
+            "proxy" : {
+                "/api" : {
+                    // "target" : "http://192.168.5.107:9003",
+                    "target" : "https://unidemo.dcloud.net.cn",
+                    "changeOrigin" : true,
+                    "secure" : false,
+                    "pathRewrite" : {
+                        "^/api" : ""
+                    }
+                }
+            }
+        }
     }
 }
+// "/api" : {
+//                 "target" : "https://unidemo.dcloud.net.cn",
+//                 "changeOrigin" : true,
+//                 "secure" : false,
+//                 "pathRewrite" : {
+//                     "^/api" : ""
+//                 }
+//             }
+

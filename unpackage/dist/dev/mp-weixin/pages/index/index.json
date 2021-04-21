@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "文博资讯",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-lazy-load": "/uview-ui/components/u-lazy-load/u-lazy-load",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

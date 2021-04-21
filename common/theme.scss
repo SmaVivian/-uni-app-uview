@@ -1,0 +1,21 @@
+page {
+	background-color: #F5F5F5;
+}
+
+/* 
+uView内置样式
+1.u-line-1,u-line-2,u-line-3,u-line-4,u-line-5显示一行、两行、三行、四行、五行+省略号
+2.文字对齐 u-text-left u-text-center 
+3.重置按钮样式 <button class="u-reset-button">点击登录</button>
+4.内外边距 <view class="u-margin-left-26"></viwe> <view class="u-margin-left-15"></viwe> 1-80(可以等于80)之间的偶数(双数);能被5除尽的1-80之间的数，如5，10，15，35等
+5.边框 u-border u-border-bottom
+*/
+
+// .g-btn-primary {
+// 	color: #fff;
+// 	background-color: $uni-color-primary;
+// 	border-radius: 50rpx;
+// 	&:hover {
+// 		opacity: 0.8;
+// 	}
+// }
